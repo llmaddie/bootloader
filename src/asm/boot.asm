@@ -21,5 +21,5 @@ message:
 
 ; mark as the device bootable 
 times 510-($-$$) db 0; add any additional zeroes to make 510 bytes in total
-dw 0xAA55 ; write the final 2 bytes as the magic number 0x55aa, remembering x86 little endian
+dw 0xAA55 ; write the final 2 bytes as the magic number 0xAA55,  remembering x86 little endian
 
